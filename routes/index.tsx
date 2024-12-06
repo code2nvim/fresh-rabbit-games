@@ -6,7 +6,7 @@ export default function Home() {
   const count = useSignal(3);
 
   return (
-    <main class="flex flex-col items-center">
+    <main class="flex flex-grow flex-col items-center">
       <Fresh />
       <h1 class="text-4xl font-bold">Welcome to Fresh</h1>
       <p class="my-4">

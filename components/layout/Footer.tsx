@@ -1,3 +1,3 @@
 export function Footer() {
-  return <footer>Footer</footer>;
+  return <footer class="flex justify-center bg-green-600">Footer</footer>;
 }

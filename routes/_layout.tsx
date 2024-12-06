@@ -4,7 +4,7 @@ import { Header } from "../components/layout/Header.tsx";
 
 export default function Layout({ Component }: PageProps) {
   return (
-    <div class="min-h-screen bg-green-300">
+    <div class="flex min-h-screen flex-col justify-between bg-green-300">
       <Header />
       <Component />
       <Footer />
