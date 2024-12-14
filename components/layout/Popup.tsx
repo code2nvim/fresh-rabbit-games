@@ -11,7 +11,7 @@ function Anchor(props: JSX.HTMLAttributes<HTMLAnchorElement>) {
 
 export function Popup() {
   return (
-    <ul class="flex flex-col gap-4 rounded-xl border-2 border-white bg-green-900 p-8 text-black opacity-100">
+    <ul class="flex flex-col gap-4 rounded-xl border-2 border-white bg-green-900 p-8 text-black">
       <Anchor href="/">Home</Anchor>
       <Anchor href="/whack">Whack</Anchor>
     </ul>
