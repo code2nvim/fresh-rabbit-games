@@ -12,8 +12,9 @@ export function PopupScreen() {
       {showSidebar.value && (
         <div
           onClick={turnOff}
-          class="absolute flex size-full flex-col items-center bg-black bg-opacity-90 p-52"
+          class="absolute flex size-full flex-col items-center bg-black bg-opacity-90"
         >
+          <div class="h-1/5" />
           <Popup />
         </div>
       )}
