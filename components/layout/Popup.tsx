@@ -1,6 +1,6 @@
 export function Popup() {
   return (
-    <ul class="rounded-xl border-2 border-white bg-green-900 p-8 text-black">
+    <ul class="rounded-xl border-2 border-white bg-green-900 p-8 text-black opacity-100">
       <li>
         <a
           href="/"

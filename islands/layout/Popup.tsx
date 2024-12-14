@@ -1,7 +1,8 @@
 import { signal } from "@preact/signals";
 import { Popup } from "../../components/layout/Popup.tsx";
 
-const showSidebar = signal(false);
+// TODO: true -> false after testing
+const showSidebar = signal(true);
 
 export function PopupScreen() {
   const turnOff = () => (showSidebar.value = false);
@@ -11,7 +12,7 @@ export function PopupScreen() {
       {showSidebar.value && (
         <div
           onClick={turnOff}
-          class="absolute flex size-full items-center justify-center bg-black text-white opacity-90"
+          class="absolute flex size-full flex-col items-center bg-black bg-opacity-90 p-52"
         >
           <Popup />
         </div>
