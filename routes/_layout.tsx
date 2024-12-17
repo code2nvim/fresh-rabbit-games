@@ -8,6 +8,7 @@ export default function Layout({ Component }: PageProps) {
   return (
     <>
       <Head>
+        <title>Fresh Rabbit Games</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div class="flex bg-black">
