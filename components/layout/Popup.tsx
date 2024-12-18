@@ -4,7 +4,7 @@ function Anchor(props: JSX.HTMLAttributes<HTMLAnchorElement>) {
   return (
     <a
       {...props}
-      class="h-10 w-52 flex justify-center items-center rounded-md border border-black bg-green-600"
+      class="flex h-10 w-52 items-center justify-center rounded-md border border-black bg-green-600"
     />
   );
 }
